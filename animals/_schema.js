@@ -5,7 +5,7 @@ animal: {
   sex: {
     type: String,
     enum: [ 'F' , 'M' ],
-    requried: [true, 'Please specify subject sex'],
+    required: [true, 'Please specify subject sex'],
   }
   DOB: Date,
   IACUC: String,
@@ -19,7 +19,7 @@ animal: {
     dailyWater: Number,
   }
   housing: {
-    wheel_in_cage: Boolean,
-    day_night_reversed: Boolean,
+    wheelInCage: Boolean,
+    dayNightReversed: Boolean,
   }
 }

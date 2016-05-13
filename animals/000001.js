@@ -15,7 +15,7 @@ animal: {
     dailyWater: Number,
   }
   housing: {
-    wheel_in_cage: Boolean,
-    day_night_reversed: true,
+    wheelInCage: Boolean,
+    dayNightReversed: true,
   }
 }
