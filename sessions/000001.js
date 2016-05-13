@@ -30,7 +30,7 @@ session: {
   wallRight: false,
   wallFront: false,
 
-  physiology: 'none',
+  recording: [],
 
   protocol: 'free-running'
 

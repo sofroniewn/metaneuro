@@ -36,10 +36,10 @@ session: {
   wallRight: Boolean,
   wallFront: Boolean,
 
-  physiology: {
+  recording: [{
     type: String,
-    enum: [ 'none' , 'calcium-imaging' , 'silicon-probe' ]
-  },
+    enum: [ 'behaviour' , 'calcium-imaging' , 'silicon-probe' ]
+  }],
 
   protocol: {
     type: String,
