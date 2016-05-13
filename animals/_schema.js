@@ -6,7 +6,7 @@ animal: {
     type: String,
     enum: [ 'F' , 'M' ],
     required: [true, 'Please specify subject sex'],
-  }
+  },
   DOB: Date,
   IACUC: String,
   strain: [String],
@@ -17,9 +17,9 @@ animal: {
     weightStart: Number,
     dateStarted: Date,
     dailyWater: Number,
-  }
+  },
   housing: {
     wheelInCage: Boolean,
     dayNightReversed: Boolean,
-  }
+  },
 }

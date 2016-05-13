@@ -13,9 +13,9 @@ animal: {
     weightStart: Number,
     dateStarted: Date,
     dailyWater: Number,
-  }
+  },
   housing: {
     wheelInCage: Boolean,
     dayNightReversed: true,
-  }
+  },
 }
