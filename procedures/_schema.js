@@ -2,7 +2,7 @@ procedure: {
   animal: Number,
   date: Date
   method: [
-    inplant : {
+    implant : {
       type: String
       enum: [ 'headpost' , 'window' , 'silicon-probe' , 'clear-skullcap' ,
         'ground-pin' , 'crainiotomy' ],
