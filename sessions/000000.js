@@ -20,15 +20,27 @@ session: {
   ],
 
   headPosition: {
-    height: 9,
+    height: 8,
     roll: 40,
     pitch: 2,
+  },
+
+  scopePosition: {
+    X: Number,
+    Y: Number,
+    Z: Number,
+    R: Number,
   },
 
   boxLights: false,
   wallLeft: false,
   wallRight: false,
   wallFront: false,
+  laser2P: false,
+  water: true,
+
+  pmtGain: Number,
+  laser2PWavelength: Number,
 
   recording: [],
 

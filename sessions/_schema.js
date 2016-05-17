@@ -31,10 +31,22 @@ session: {
     pitch: Number,
   },
 
+  scopePosition: {
+    X: Number,
+    Y: Number,
+    Z: Number,
+    R: Number,
+  },
+
   boxLights: Boolean,
   wallLeft: Boolean,
   wallRight: Boolean,
   wallFront: Boolean,
+  laser2P: Boolean,
+  water: Boolean,
+
+  pmtGain: Number,
+  laser2PWavelength: Number,
 
   recording: [{
     type: String,

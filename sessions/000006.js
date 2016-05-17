@@ -1,7 +1,7 @@
 session: {
-  date: '05/12/16-19:00',
-  animal: 5002,
-  weight: 19.3,
+  date: '05/13/15-14:00',
+  animal: 5001,
+  weight: Number,
 
   whiskersLeft: [ 'alpha', 'A1' , 'A2' , 'A3' , 'A4' ,
     'beta', 'B1' , 'B2' , 'B3' , 'B4' ,
@@ -20,33 +20,34 @@ session: {
   ],
 
   headPosition: {
-    height: 9,
-    roll: 42,
-    pitch: 2,
+    height: 8,
+    roll: 34,
+    pitch: 12.8,
   },
 
   scopePosition: {
-    X: Number,
-    Y: Number,
-    Z: Number,
-    R: Number,
+    X: -285.0,
+    Y: 8579.5,
+    Z: -2561.3,
+    R: 15.1,
   },
+  
+  pmtGain: 0.60,
+  laser2PWavelength: 970,
 
   boxLights: false,
   wallLeft: false,
   wallRight: false,
   wallFront: false,
-  laser2P: false,
+  laser2P: true,
   water: true,
 
-  pmtGain: Number,
-  laser2PWavelength: Number,
-
-  recording: [],
+  recording: [ 'behaviour' , 'imaging' ],
 
   protocol: 'free-running'
 
   rig: '2p-RAM',
   location: '2C.384',
   experimentor: 'Nicholas Sofroniew',
+  notes: 'L4-tile low res - walls off'
 }

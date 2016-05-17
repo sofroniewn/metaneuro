@@ -1,7 +1,7 @@
 session: {
-  date: '05/12/16-19:00',
+  date: '05/13/16-17:30',
   animal: 5002,
-  weight: 19.3,
+  weight: 20.1,
 
   whiskersLeft: [ 'alpha', 'A1' , 'A2' , 'A3' , 'A4' ,
     'beta', 'B1' , 'B2' , 'B3' , 'B4' ,
@@ -20,29 +20,29 @@ session: {
   ],
 
   headPosition: {
-    height: 9,
-    roll: 42,
-    pitch: 2,
+    height: 8,
+    roll: 33,
+    pitch: 14.3,
   },
 
   scopePosition: {
-    X: Number,
-    Y: Number,
-    Z: Number,
-    R: Number,
+    X: -201.5,
+    Y: 6635.5,
+    Z: -3249.8,
+    R: 15.1,
   },
+
+  pmtGain: 0.6,
+  laser2PWavelength: 970,
 
   boxLights: false,
   wallLeft: false,
-  wallRight: false,
+  wallRight: true,
   wallFront: false,
-  laser2P: false,
+  laser2P: true,
   water: true,
 
-  pmtGain: Number,
-  laser2PWavelength: Number,
-
-  recording: [],
+  recording: [ 'behaviour' , 'imaging' ],
 
   protocol: 'free-running'
 
